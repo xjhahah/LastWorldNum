@@ -13,7 +13,7 @@ public:
 		while (getline(cin, s))
 		{
 			size_t pos = s.rfind(' ');
-			len = s.size() - pos - 1;
+			len = s.size() - pos - 1;  //这里减一操作是把空格那个数减掉才是最后一个字符串的长度
 			cout << len << " " << endl;
 		}	
 		return len;
